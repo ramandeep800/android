@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                fetchData fetch=new fetchData();
-                fetch.execute();
-//getdata();
+//                fetchData fetch=new fetchData();
+//                fetch.execute();
+                   getdata();
 
             }
         });
